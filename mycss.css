@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-May-2019, 18:51:43
+    Author     : niilo
+*/
+
+h1{
+    background-color: #ccccff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.split {
+    height: 15%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 1;
+    overflow-x: hidden;
+    padding-top: 10px;
+    }
+
+.left {
+    left: 0;
+    background-color: #ccccff;
+}
+
+.right {
+    right: 0;
+    background-color: #ccccff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1%;
+    background-color: #ccc;
+    padding: 100px;
+    visibility: hidden;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    visibility: visible;
+}
