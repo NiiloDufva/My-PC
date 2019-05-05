@@ -14,15 +14,20 @@ h1{
     padding: 20px;
     text-align: center;
 }
+
+h2{
+    background-color: #ccccff
+}
+
 .split {
-    height: 15%;
+    height: 80px;
     width: 50%;
     position: absolute;
     z-index: 1;
     top: 1;
     overflow-x: hidden;
     padding-top: 10px;
-    }
+}
 
 .left {
     left: 0;
@@ -38,8 +43,8 @@ h1{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 1%;
-    background-color: #ccc;
-    padding: 100px;
+    background-color: #cff;
+    padding-top: 10%;
     visibility: hidden;
 }
 .grid-container > div {
