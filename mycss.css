@@ -36,6 +36,7 @@ h2{
     background-color: #cff;
     padding-top: 100px;
     visibility: hidden;
+    overflow: scroll;
 }
 .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
